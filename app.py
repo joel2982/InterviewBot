@@ -12,7 +12,7 @@ from langchain.prompts import (
 )
 from chatui import css,user_template,bot_template
 
-#OPENAI_API_KEY=st.secrets['OPENAI_API_KEY']
+OPENAI_API_KEY=st.secrets['OPENAI_API_KEY']
 
 def new_session_state():
     if 'conversation' not in st.session_state:
