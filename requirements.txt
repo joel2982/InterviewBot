@@ -1,0 +1,7 @@
+langchain
+python-dotenv
+streamlit
+streamlit
+OpenAI
+tiktoken
+streamlit-extras
